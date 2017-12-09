@@ -7,6 +7,7 @@ double step;
 double par(void)
 {
 	int num_of_threads = 3;
+	omp_set_num_threads(num_of_threads);
 	long long inc = 0;
 	long long i = 0;
 	double x = 0.0;
