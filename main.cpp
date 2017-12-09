@@ -30,7 +30,7 @@ int main()
 {
 	printf("time: %f sec.\n\n", par());
 	char c;
-	scanf_s("%c", &c);
+	//scanf_s("%c", &c);
 	return 0;
 }
 
